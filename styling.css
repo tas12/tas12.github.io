@@ -86,12 +86,6 @@ span#makeup {
 	height: 400px;
 }
 
-.about {
-	
-	/*background-repeat: no-repeat;
-	background-size: cover;*/
-}
-
 .about .container-fluid {
 	/*width: 100%;*/
 	height: 500px;
@@ -102,7 +96,12 @@ span#makeup {
 
 .about  {
 	color: #474747; /*#FFEDFD*/
+
 	
+}
+
+.about img {
+	min-width:100%;
 }
 
 
