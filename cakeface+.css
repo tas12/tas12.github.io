@@ -24,13 +24,14 @@
 
 .jumbotron {
 	background-image: url('makeup_brushes.jpg');
-	height: 275px; /*275px*/
+	height: 500px; /*275px*/
 
 	background-size: cover;
-	margin-top:88px;
+	margin-top:70px;
 	border-bottom: 2px solid #D9AAB6;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	
 
 	
 
@@ -52,6 +53,7 @@ span#makeup {
 	padding-right: 5px;
 
 
+
 }
 
 .nav a:hover {
@@ -71,6 +73,7 @@ span#makeup {
 
 .nav .pull-right {
 	margin-top: 10px;
+	padding-left:0px;
 }
 
 
@@ -84,10 +87,8 @@ span#makeup {
 	margin-right: 20;
 }
 
-.services {
-	background-color: #FAE8F8; /*FAE8F8*/
-	height: auto;
-}
+
+
 
 .about .container-fluid {
 	/*width: 100%;*/
@@ -119,6 +120,22 @@ div#navContainer {
 	background-color: white;
 } 
 
+.services {
+	background-color: #fbf7f7; /*FAE8F8*/
+	height: auto;
+}
+
+.services .container-fluid {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.services .container-fluid img {
+	max-width: 98%;
+	display: block;
+	margin: 0 auto;
+}
+
 .panel {
 	
 	max-width: 90%;
@@ -126,6 +143,8 @@ div#navContainer {
 	
 	margin-top: 30px;
 	margin-bottom: 30px;
+	display: block;
+	margin: 0 auto;
 	
 	
 
@@ -144,4 +163,59 @@ div .description{
 	height: 100%;
 }
 
+.subtitle .container-fluid {
+	text-align: center;
+	font-family: 'Cinzel';
+	font-size: 30px;
+}
 
+div .navbar-brand {
+	margin-top:0px;
+	padding-top:5px;
+}
+
+.navbar-brand p{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 5px;
+	transform: scale(0.9,0.8);
+	text-transform: uppercase;
+	font-size:20px;
+	display:inline;
+}
+
+.navbar-brand img {
+	display:inline;
+}
+
+p#beyond {
+	
+	letter-spacing: 5px;
+	transform: scale(0.9,0.8);
+	text-transform: uppercase;
+	
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	font-family: 'Fredericka the Great';
+	font-size: 120px;
+}
+
+button.navbar-toggle {
+	margin-top:16px;
+}
+
+.services ul {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+footer li {
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+	
+footer ul {
+	width:25%;
+	margin-left:auto;
+	margin-right:auto;
+}
