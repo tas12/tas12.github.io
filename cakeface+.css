@@ -209,6 +209,10 @@ button.navbar-toggle {
 	margin-right:auto;
 }
 
+div.services {
+	clear: both;
+}
+
 footer li {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -219,3 +223,5 @@ footer ul {
 	margin-left:auto;
 	margin-right:auto;
 }
+
+
