@@ -1,91 +1,49 @@
+body
+{
+    overflow-x: hidden; 
+    width: 100%;
+}
+
+/*---------------Content wrapper---------------*/
+
+/*wrapper for website content*/
 div#main {
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
-div#intro {
-	color: white;
-	
-	text-align: left;
-	
-	background: rgba(0,0,0,0.2);
-	text-shadow: 1px 1px 1px #000;
-	
-	width: 100%;
-	
-	height: 75vh;
-	position: relative;
-	
-	
+/*---------------Navigation---------------*/
 
-}
-
-h1#header {
-	position: absolute;
-	bottom: 0;
-}
-
-#para {
-	color: white;
-	
-	text-align: left;
-	
-	background: rgba(0,0,0,0.2);
-	text-shadow: 1px 1px 1px #000;
-	
-	width: 100%;
-	
-	height: 25vh;
-	
-	
-
-}
-
-.jumbotron {
-	background-image: url('brushes_full.jpg');
-	height: 100vh; /*275px*/
-	width: 100%;
-
-	background-size: cover;
-	margin-top:70px;
-	border-bottom: 2px solid #D9AAB6;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	
-	
-
-	
-
-}
-
+/*nav-brand 'cakeface' text*/
 span#cakeface {
+	font-weight: 700;
+
+}
+
+/*nav-brand 'makeup' text*/
+span#makeup {
 	font-weight: 400;
 
 }
 
-span#makeup {
-	font-weight: 300;
-
-}
-
-.nav li {
+/*list items in the top navigation bar*/
+.nav#menu li {
 	display: inline;
 	padding-left: 5px;
 	padding-right: 5px;
 
-
-
 }
 
-.nav a:hover {
-	color: #474747;
-	font-weight: bold;
+/*links in the top navigation bar*/
+.nav#menu a:hover {
+	color: #CB8D9A; /*CB8D9A*/
 	text-decoration: none;
 }
 
+/*all lins under the nav class*/
 .nav a {
 	color: #474747;
+
 }
 
 .nav {
@@ -93,60 +51,137 @@ span#makeup {
 
 }
 
+/*brand on top right*/
 .nav .pull-right {
 	margin-top: 10px;
 	padding-left:0px;
 }
 
-
-
-.nav .pull-left {
-	padding-left: 0;
-}
-
-.nav .container {
-	margin-left: 20;
-	margin-right: 20;
-}
-
-
-
-
-.about .container-fluid {
-	/*width: 100%;*/
-	height: auto;
-	margin-right: 0;
-	margin-left: 0;
-
-}
-
-.about  {
-	color: #474747; /*#FFEDFD*/
-	width: 100%;
-
-	
-}
-
-.about img {
-	min-width:100%;
-}
-
-div#photo {
-	padding-left: 0px;
-}
-
+/*all navbars*/
 .navbar {
 	margin-bottom: 0;
 }
 
+/*div containing all the top navbar items*/
 div#navContainer {
 	margin-bottom: 10px;
 }
 
+/*all navbars*/
 .navbar {
 	background-color: white;
 } 
 
+/*div with class navbar-band*/
+div .navbar-brand {
+	margin-top:0px;
+	padding-top:5px;
+}
+
+/*'Cakeface makeup' brand in top right of screen*/ 
+.navbar-brand p{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 5px;
+	transform: scale(0.9,0.8);
+	text-transform: uppercase;
+	font-size:22px;
+	display:inline;
+}
+
+/*Cakeface logo in top right of screen*/
+.navbar-brand img {
+	display:inline;
+}
+
+
+/*---------------Jumbotron---------------*/
+
+/*jumbtron*/
+.jumbotron {
+	background-image: url('brushes_full.jpg');
+	height: 100vh; /*275px*/
+	width:auto;
+
+	background-size: cover;
+	margin-top:70px;
+	border-bottom: 2px solid #D9AAB6;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+}
+
+/*transparent layer upon jumbotron*/
+div#intro {
+	color: white;
+	text-align: left;
+	background: rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 1px #000;
+	width: 100%;
+	height: 70vh;
+	position: relative;
+	
+}
+
+/*jumbotron header*/
+h1#header {
+	position: absolute;
+	bottom: 0;
+}
+
+/*jumbotron paragraph*/
+#para {
+	color: white;
+	text-align: left;
+	background: rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 1px #000;
+	width: 100%;
+	height: 30vh;
+	
+}
+
+/*---------------About---------------*/
+
+/*The Artisit section*/
+.about .container-fluid {
+	/*width: 100%;*/
+	height: auto;
+	padding-right: 0px;
+
+}
+
+/*The Artist section*/
+.about  {
+	color: #474747; /*#FFEDFD*/
+	min-width: 100%;
+
+}
+
+/*The Artist section image*/
+.about img {
+	min-width:100%;
+}
+
+/*div containing the artist image*/
+div#photo {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 15px;
+}
+
+div#artistAbout {
+	
+	padding-left: 25px;	
+	padding-right: 15px;
+}
+
+div#aboutText {
+	width: 95%
+}
+
+/*---------------Services---------------*/
+
+/*Services section*/
 .services {
 	background-color: #fbf7f7; /*FAE8F8 */
 	height: auto;
@@ -154,18 +189,21 @@ div#navContainer {
 
 }
 
+/*Services container*/
 .services .container-fluid {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 }
 
-.services .container-fluid img {
+
+/*.services .container-fluid img {
 	max-width: 98%;
 	display: block;
 	margin: 0 auto;
-}
+}*/
 
+/*Services panels*/
 .panel {
 	
 	max-width: 90%;
@@ -180,40 +218,7 @@ div#navContainer {
 
 }
 
-
-
-a#logo {
-	padding-top: 0;
-	height: 68px;
-}
-
-div .description{
-	
-	width: 100%;
-	height: 100%;
-}
-
-
-
-div .navbar-brand {
-	margin-top:0px;
-	padding-top:5px;
-}
-
-.navbar-brand p{
-	font-family: 'Lato', sans-serif;
-	letter-spacing: 5px;
-	transform: scale(0.9,0.8);
-	text-transform: uppercase;
-	font-size:20px;
-	display:inline;
-}
-
-.navbar-brand img {
-	display:inline;
-}
-
-p#beyond {
+/*p#beyond {
 	
 	letter-spacing: 5px;
 	transform: scale(0.9,0.8);
@@ -224,7 +229,7 @@ p#beyond {
 	text-align: center;
 	font-family: 'Fredericka the Great';
 	font-size: 90px;
-}
+}*/
 
 .subtitle {
 	background-color: #FBEFF2;
@@ -244,12 +249,24 @@ button.navbar-toggle {
 footer li {
 	padding-left: 15px;
 	padding-right: 15px;
+	
+	display: inline;
 	}
 	
 footer ul {
 	max-width:100%;
 	margin-left:auto;
 	margin-right:auto;
+
+}
+
+footer {
+	padding-top: 20px;
+	line-height: 5%;
+}
+
+footer a {
+	vertical-align: middle;
 }
 
 
