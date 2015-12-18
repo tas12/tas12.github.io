@@ -6,6 +6,13 @@ body
 
 /*---------------Content wrapper---------------*/
 
+.row{
+	width: 100%;
+	margin-right:  0px;
+	margin-left: 0px;
+
+}
+
 /*wrapper for website content*/
 div#main {
 	padding-left: 0px;
@@ -26,18 +33,26 @@ span#makeup {
 
 }
 
+#brand {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
 #beyond {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Libre Baskerville',sans-serif;
 	margin-top:0px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 	text-align: center;	
+	padding-right: 0px;
+	padding-left: 0px;	
+	
 
 }
 
 #beyond p{
-	margin-top: 60px;
+	padding-top: 5px;
 }
 
 /*list items in the top navigation bar*/
@@ -76,10 +91,15 @@ span#makeup {
 
 } 
 
+#navContainer1 {
+	padding-left: 0px;
+	padding-right: 0px; 
+}
+
 /*div with class navbar-band*/
-div .navbar-brand {
+.navbar-brand {
 	margin-top:0px;
-	padding-top:5px;
+	padding:5px 0px 5px 0px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -106,12 +126,12 @@ div .navbar-brand {
 	text-align: center;
 	background: transparent;
 	padding-bottom: 0px;
+	width: 100%;	
 	
 }
 
 button{
-	width: 100%;
-	margin-bottom: opx;
+	width: 100%;	
 	margin-left: 15px ;
 	margin-right : auto;
 	left: 15px;
@@ -134,150 +154,96 @@ button{
 	width: 100%;	
 }
 
-ul#menu{
-	text-align: center;
-	padding-left: 11%;	
-}
-
 #menu a {
 	color: white;
 }
 
-/*---------------Jumbotron---------------*/
-
-/*jumbtron*/
-.jumbo {
-	
-	height: 100%; /*275px*/
-	width:100%;
-
-	background-size: cover;
-	margin-top:0px;
-	border-bottom: 1px solid #D9AAB6;
-	padding-top: 0px;
-	
-	margin-top: 0px;
-	margin-bottom: 0px;
-	background: rgba(0,0,0,0.2);
-	position: relative;
-	
-	z-index: -1;
+.dropdown-menu{
+	background: rgba(203,141,154, 1);
+	width: auto !important;	
 }
 
-#pic {
-	margin-right: 0px;
-	margin-left: 0px;
 
+.testimonials{
+	margin-bottom: 25px;
+	display: none;
 }
-
-.jumbo div{
-	padding: 0px 0px 0px 0px;
+.active-slide{
+	display: block;
 }
-
-.jumbo img{
-	width: 100%;
-	height: auto;
-
-}
-
-/*transparent layer upon jumbotron*/
-div#intro {
-	color: white;
-	text-align: left;
-	
-	text-shadow: 1px 1px 1px #000;
-	min-width: 100%;
-	height: 70vh;
-	position: relative;
-	z-index: 10;
-
-	
-}
-
-/*jumbotron header*/
-h1#header {
-	position: absolute;
-	bottom: 0;
-}
-
-/*jumbotron paragraph*/
-#para {
-	color: white;
-	text-align: left;
-	text-shadow: 1px 1px 1px #000;
-	width: 100%;
-	height: 30vh;
-	
-}
-
-/*---------------Services---------------*/
-
-/*Services section*/
-.services {
-	background-color: #fbf7f7; /*FAE8F8 */
-	height: auto;
-	width: 100%;
-	font-family: 'Lato', sans-serif;
-
-}
-
-/*Services container*/
-.services .container-fluid {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	width: 100%;
-
-}
-
-/*Services panels*/
 .panel {
 	
 	max-width: 90%;
 	background: rgba(255,255,255,0.4);
-	
-	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+	padding-top: 30px;
 	margin-bottom: 30px;
 	display: block;
 	margin: 0 auto;	
 
 }
 
-
-.subtitle {
-	background-color: #FBEFF2;
-	width: 100%;
+.testimonials img{
+	display: block;
+	margin: 15px auto 30px auto;
 }
 
-button.navbar-toggle {
-	margin-top:16px;
+blockquote {
+	width: 80%;
+	display: block;
+	margin: 15px auto 30px auto;
+	font-family: 'Lato', sans-serif;
+	color: grey;
 }
 
-.services ul {
-	margin-left:auto;
-	margin-right:auto;
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
 }
 
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
 
-/*---------partners------------*/
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
 
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
 
-	
-/*footer ul {
-	max-width:100%;
-	margin-left:auto;
-	margin-right:auto;
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
 
-}*/
+.slider-dots li.active-dot {
+  color: #363636;
+}
 
 footer {
 	padding-top: 20px;
 	/*line-height: auto;*/
 	background: rgba(203,141,154, 0.7);	
+	font-family: 'Lato', sans-serif;
 }
 
 footer a {
 	vertical-align: middle;
 	color: #474747;
+
 
 }
 
@@ -293,15 +259,16 @@ footer a:hover{
 }
 
 #social li{
-	display: inline;		
+	display: inline-block;		
 }
 
 #social{
-	width: 30%;
+	width: auto;
 	margin-bottom: 20px;
 	float: left;
 	padding-left: 0px;
 }
 
-
-
+#copyright{
+	width: auto;
+}
