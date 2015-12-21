@@ -16,7 +16,7 @@ body
 /*wrapper for website content*/
 div#main {
 	padding-left: 0px;
-	padding-right: 0px;
+	padding-right: 0px;	
 }
 
 /*---------------Navigation---------------*/
@@ -24,13 +24,11 @@ div#main {
 /*nav-brand 'cakeface' text*/
 span#cakeface {
 	font-weight: 700;
-
 }
 
 /*nav-brand 'makeup' text*/
 span#makeup {
 	font-weight: 400;
-
 }
 
 #brand {
@@ -38,29 +36,11 @@ span#makeup {
 	padding-left: 0px;
 }
 
-#beyond {
-	font-family: 'Libre Baskerville',sans-serif;
-	margin-top:0px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	text-align: center;	
-	padding-right: 0px;
-	padding-left: 0px;	
-	
-
-}
-
-#beyond p{
-	padding-top: 5px;
-}
-
 /*list items in the top navigation bar*/
 #menu li {
 	display: inline;
 	padding-left: 5px;
 	padding-right: 5px;
-
 }
 
 /*links in the top navigation bar*/
@@ -69,9 +49,6 @@ span#makeup {
 	text-decoration: none;
 }
 
-.nav {
-	margin-top: 5px;
-}
 
 /*all navbars*/
 .navbar {
@@ -79,16 +56,10 @@ span#makeup {
 }
 
 /*div containing all the top navbar items*/
-/*div#navContainer2 {
-	margin-bottom: 10px;
-}*/
 
 /*all navbars*/
 #navbar1 {
 	background-color: white;
-	height: auto;
-	padding-top: 5px;
-
 } 
 
 #navContainer1 {
@@ -99,11 +70,13 @@ span#makeup {
 /*div with class navbar-band*/
 .navbar-brand {
 	margin-top:0px;
-	padding:5px 0px 5px 0px;
+	padding:11px 0px 5px 0px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 	text-align: center;
+	height: auto;
+	color: #727272;
 }
 
 /*'Cakeface makeup' brand in top right of screen*/ 
@@ -114,7 +87,6 @@ span#makeup {
 	text-transform: uppercase;
 	font-size:1.2em;
 	display:inline;
-
 }
 
 /*Cakeface logo in top right of screen*/
@@ -125,9 +97,7 @@ span#makeup {
 #navContainer2 {
 	text-align: center;
 	background: transparent;
-	padding-bottom: 0px;
-	width: 100%;	
-	
+	width: 100%;
 }
 
 button{
@@ -137,13 +107,22 @@ button{
 	left: 15px;
 }
 
+button.navbar-toggle {
+	margin-top:16px;
+}
+
 #menu-bar {
 	background: rgba(203,141,154, 0.7);
 	color: white;	
 	width: 100%;
-	margin-top: 95px;
 	font-family: 'Lato', sans-serif;
+	margin-top: 65px;
+}
 
+@media only screen and (max-width: 335px) {
+	#menu-bar{
+		margin-top: 85px;
+	}
 }
 
 .navMenuCollapse{
@@ -154,8 +133,16 @@ button{
 	width: 100%;	
 }
 
+#menu{
+	
+}
+
 #menu a {
 	color: white;
+}
+
+#menu li {
+	
 }
 
 .dropdown-menu{
@@ -165,7 +152,7 @@ button{
 
 
 .testimonials{
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	display: none;
 }
 .active-slide{
@@ -198,7 +185,7 @@ blockquote {
 
 .slider-nav {
   text-align: center;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .arrow-prev {
@@ -238,12 +225,12 @@ footer {
 	/*line-height: auto;*/
 	background: rgba(203,141,154, 0.7);	
 	font-family: 'Lato', sans-serif;
+	padding-bottom: 20px;
 }
 
 footer a {
 	vertical-align: middle;
 	color: #474747;
-
 
 }
 
@@ -256,10 +243,12 @@ footer a:hover{
 	list-style-type: none;
 	display: block;
 	padding-left: 0px;
+	font-size: 16px;	
 }
 
 #social li{
-	display: inline-block;		
+	display: inline-block;
+	margin-right: 5px;		
 }
 
 #social{
@@ -269,6 +258,13 @@ footer a:hover{
 	padding-left: 0px;
 }
 
+footer#end{
+	background: rgba(203,141,154, 0.9);		
+	width: 100%;	
+	padding-bottom: 0px;
+}
+
 #copyright{
 	width: auto;
+
 }
