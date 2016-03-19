@@ -5,15 +5,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="Style/header_footer.css" />
-	<link type="text/css" rel="stylesheet" href="Style/styling.css" />
-
+	<link type="text/css" rel="stylesheet" href="Style/portfolio.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<title></title>
 
 </head>
-
-<a name="top"></a>
 
 <body>
 	<div id="main" class="container-fluid">
@@ -21,15 +18,14 @@
 			<div id="navContainer1"class="container">
 
 				<div class="nav">
-					<a href="index.html">
-						<div class="navbar-brand">
-							<div class="row">
-								<div id="brand" class="col-md-6 col-md-offset-3 col-xs-12">
-									<p><span id="cakeface">CakeFace</span> <span id="makeup">Makeup</span></p>
-									<img src="Images/c1.png">
-								</div>
+					<a href="index.html"><div class="navbar-brand">
+						<div class="row">
+							<div id="brand" class="col-md-6 col-md-offset-3 col-xs-12">
+								<p><span id="cakeface">CakeFace</span> <span id="makeup">Makeup</span></p>
+								<img src="Images/c1.png">
 							</div>
 						</div>
+					</div>
 					</a>
 				</div>
 			</div>
@@ -59,7 +55,7 @@
 													<li><a href="#">CakeFace Team</a></li>
 												</ul>
 											</li>
-											<li><a href="portfolio.html">Portfolio</a></li>
+											<li><a href="#">Portfolio</a></li>
 											<li class="dropdown">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
 												<ul class="dropdown-menu">
@@ -78,54 +74,45 @@
 				</div>
 		</div>
 
-		<div class="jumbo">
-			<div class="container-fluid">
-				<div id="pic" class="row">
-					<div class="col-md-12">
-							<img src="Images/D75_8608.jpg">
-					</div>
+<!-- <h3 id="portfolio-title">Portfolio</h3> -->
 
-				</div>
-			</div>
-		</div>
+<div class="slider">
 
-
-
-		<div class="services">
+		<div class="my-slide active-slide">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-4 col-sm-12">
+					<div class="col-md-10 col-md-offset-1">
 						<div class="panel">
-
-							<h4>Weddings</h4>
-							<p>Ut aperiam blandit vix. Tantas noluisse duo id, in sit graeci deleniti. Et iudico euismod periculis sea. Alienum mporibus sed ex. Cu pro prima dissentias.</p>
+							<img class="photo" src="Images/portfolio/D75_8938.jpg"/>
 						</div>
-
-
-					</div>
-					<div class="col-md-4 col-sm-12">
-						<div class="panel">
-
-								<h4>Photoshoots</h4>
-								<p>Ut aperiam blandit vix. Tantas noluisse duo id, in sit graeci deleniti. Et iudico euismod periculis sea. Alienum temporibus sed ex. Cu pro prima dissentias.</p>
-
-						</div>
-
-					</div>
-
-					<div class="col-md-4 col-sm-12">
-						<div class="panel">
-							<img src="">
-							<h4>Special Occassions</h4>
-							<p>Ut aperiam blandit vix. Tantas noluisse duo id, in sit graeci deleniti. Et iudico euismod periculis sea. Alienum temporibus sed ex. Cu pro prima dissentias.</p>
-						</div>
-
 					</div>
 				</div>
+    	</div>
+    </div>
 
-			</div>
+    <div class="my-slide">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="panel">
+							<img class="photo" src="Images/portfolio/D75_8758.jpg"/>
+						</div>
+					</div>
+				</div>
+    	</div>
+    </div>
 
-		</div>
+</div>
+
+<div class="slider-nav">
+    <a href="#" class="arrow-prev">
+      <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png">
+    </a>
+
+    <a href="#" class="arrow-next">
+      <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png">
+    </a>
+</div>
 
 </div>
 
@@ -165,6 +152,7 @@
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="Javascript/slider.js"></script>
 
 </body>
 

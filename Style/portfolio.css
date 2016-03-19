@@ -1,0 +1,53 @@
+h3#portfolio-title {
+	text-align: center;
+	color: #727272;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.my-slide{
+	margin-bottom: 15px;
+	display: none;
+}
+.active-slide{
+	display: block;
+}
+.panel {
+
+	max-width: 100%;
+	background: rgba(255,255,255,0.4);
+	font-family: 'Lato', sans-serif;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.my-slide img{
+	display: block;
+	margin: 10px auto 0px auto;
+	max-width: 100%;
+	padding-bottom: 0px;
+}
+
+.slider-nav {
+	text-align: center;
+	margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+}
