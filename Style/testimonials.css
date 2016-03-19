@@ -1,7 +1,7 @@
 
 
 
-.testimonials{
+.my-slide{
 	margin-bottom: 15px;
 	display: none;
 }
@@ -9,18 +9,18 @@
 	display: block;
 }
 .panel {
-	
+
 	max-width: 90%;
 	background: rgba(255,255,255,0.4);
 	font-family: 'Lato', sans-serif;
 	padding-top: 30px;
 	margin-bottom: 30px;
 	display: block;
-	margin: 0 auto;	
+	margin: 0 auto;
 
 }
 
-.testimonials img{
+.my-slide img{
 	display: block;
 	margin: 15px auto 30px auto;
 }
@@ -69,4 +69,3 @@ blockquote {
 .slider-dots li.active-dot {
   color: #363636;
 }
-

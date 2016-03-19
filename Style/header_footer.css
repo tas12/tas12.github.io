@@ -1,6 +1,6 @@
 body
 {
-    overflow-x: hidden; 
+    overflow-x: hidden;
     width: 100%;
 }
 
@@ -16,7 +16,7 @@ body
 /*wrapper for website content*/
 div#main {
 	padding-left: 0px;
-	padding-right: 0px;	
+	padding-right: 0px;
 }
 
 /*---------------Navigation---------------*/
@@ -36,19 +36,6 @@ span#makeup {
 	padding-left: 0px;
 }
 
-/*list items in the top navigation bar*/
-#menu li {
-	display: inline;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-/*links in the top navigation bar*/
-.nav#menu a:hover {
-	color: #CB8D9A; /*CB8D9A*/
-	text-decoration: none;
-}
-
 /*all navbars*/
 .navbar {
 	margin-bottom: 0;
@@ -59,11 +46,11 @@ span#makeup {
 /*all navbars*/
 #navbar1 {
 	background-color: white;
-} 
+}
 
 #navContainer1 {
 	padding-left: 0px;
-	padding-right: 0px; 
+	padding-right: 0px;
 }
 
 /*div with class navbar-band*/
@@ -78,7 +65,7 @@ span#makeup {
 	color: #727272;
 }
 
-/*'Cakeface makeup' brand in top right of screen*/ 
+/*'Cakeface makeup' brand in top right of screen*/
 .navbar-brand p{
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 5px;
@@ -100,7 +87,7 @@ span#makeup {
 }
 
 button{
-	width: 100%;	
+	width: 100%;
 	margin-left: 15px ;
 	margin-right : auto;
 	left: 15px;
@@ -113,7 +100,7 @@ button.navbar-toggle {
 
 #menu-bar {
 	background: rgba(203,141,154, 0.7);
-	color: white;	
+	color: white;
 	width: 100%;
 	font-family: 'Lato', sans-serif;
 	margin-top: 65px;
@@ -150,25 +137,30 @@ button.navbar-toggle {
 	left: 36px;
 }
 
-.navMenuCollapse ul{ 
-	width: 100%;	
+.navMenuCollapse ul{
+	width: 100%;
 }
 
-#menu{
-	
+/*list items in the top navigation bar*/
+#menu li {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*links in the top navigation bar*/
+.nav#menu a:hover {
+	color: #CB8D9A; /*CB8D9A*/
+	text-decoration: none;
 }
 
 #menu a {
 	color: white;
 }
 
-#menu li {
-	
-}
-
 .dropdown-menu{
 	background: rgba(203,141,154, 1);
-	width: auto !important;	
+	width: auto !important;
 }
 
 /*------Footer-------*/
@@ -182,7 +174,7 @@ button.navbar-toggle {
 footer {
 	padding-top: 20px;
 	/*line-height: auto;*/
-	background: rgba(203,141,154, 0.7);	
+	background: rgba(203,141,154, 0.7);
 	font-family: 'Lato', sans-serif;
 	padding-bottom: 20px;
 }
@@ -202,12 +194,12 @@ footer a:hover{
 	list-style-type: none;
 	display: block;
 	padding-left: 0px;
-	font-size: 16px;	
+	font-size: 16px;
 }
 
 #social li{
 	display: inline-block;
-	margin-right: 5px;		
+	margin-right: 5px;
 }
 
 #social{
@@ -218,8 +210,8 @@ footer a:hover{
 }
 
 footer#end{
-	background: rgba(203,141,154, 0.9);		
-	width: 100%;	
+	background: rgba(203,141,154, 0.9);
+	width: 100%;
 	padding-bottom: 0px;
 	padding-top: 10px;
 }
